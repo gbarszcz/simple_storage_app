@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Storage</string>
+    <string name="show_all_products">Show all products</string>
+    <string name="add_product">Add product</string>
+    <string name="delete_product">Delete product</string>
+    <string name="update_product">Update product</string>
+    <string name="product_added">Product(name=%1$s, quantity=%2$f, price=%3$f) added to the database</string>
+    <string name="product_updated">Product updated</string>
+    <string name="save_data">Save data</string>
+    <string name="product_name">Product name</string>
+    <string name="product_quantity">Product quantity</string>
+    <string name="product_quantity_parametrized">Product quantity: %1$s</string>
+    <string name="product_price">Product price</string>
+    <string name="product_price_parametrized">Product price: %1$s</string>
+    <string name="calculate_prices">Calculate money spent</string>
+    <string name="calculation_result">Money spent: </string>
+    <string name="error_adding_product">Error adding product</string>
+</resources>
