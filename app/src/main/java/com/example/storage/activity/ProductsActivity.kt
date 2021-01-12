@@ -40,9 +40,15 @@ class ProductsActivity : AppCompatActivity() {
             words.let { adapter.submitList(it) }
         }
 
-        val fab = findViewById<FloatingActionButton>(R.id.fab)
-        fab.setOnClickListener {
+        val addNewProductButton = findViewById<FloatingActionButton>(R.id.addNewProductButton)
+        addNewProductButton.setOnClickListener {
             val intent = Intent(this@ProductsActivity, NewProductActivity::class.java)
+            startActivity(intent)
+        }
+
+        val backHomeButton = findViewById<FloatingActionButton>(R.id.backHomeButton)
+        backHomeButton.setOnClickListener {
+            val intent = Intent(this@ProductsActivity, MainActivity::class.java)
             startActivity(intent)
         }
     }

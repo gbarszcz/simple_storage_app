@@ -1,5 +1,6 @@
 package com.example.storage.activity
 
+import android.content.Intent
 import android.database.Cursor
 import android.os.Bundle
 import android.view.View
@@ -13,6 +14,7 @@ import com.example.storage.R
 import com.example.storage.database.StorageApplication
 import com.example.storage.database.viewmodel.ProductViewModel
 import com.example.storage.database.viewmodel.ProductViewModelFactory
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
 class CalculatePricesActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
@@ -29,6 +31,11 @@ class CalculatePricesActivity : AppCompatActivity(), AdapterView.OnItemSelectedL
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
         spinner.onItemSelectedListener = this
+        val backHomeButton = findViewById<FloatingActionButton>(R.id.homeButton)
+        backHomeButton.setOnClickListener {
+            val intent = Intent(this@CalculatePricesActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {

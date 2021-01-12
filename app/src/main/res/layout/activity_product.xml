@@ -75,6 +75,8 @@
         android:orientation="horizontal">
 
         <Button
+            android:textColor="@color/dirtyWhite"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:id="@+id/saveData"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
