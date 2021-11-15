@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spiżarnia</string>
+    <string name="show_all_products">Pokaż wszystkie produkty</string>
+    <string name="add_product">Dodaj produkt</string>
+    <string name="delete_product">Usuń produkt</string>
+    <string name="update_product">Zaktualizuj produkt</string>
+    <string name="product_added">Produkt(nazwa=%1$s, ilość=%2$f, cena=%3$f) dodany do bazy danych</string>
+    <string name="product_updated">Produkt zaktualizowany</string>
+    <string name="save_data">Zapisz dane</string>
+    <string name="product_name">Nazwa produktu</string>
+    <string name="product_quantity">Ilość produktu</string>
+    <string name="product_price">Cena produktu</string>
+    <string name="calculate_prices">Wylicz wydane pieniądze</string>
+    <string name="calculation_result">Wydane pieniądze</string>
+    <string name="error_adding_product">Wystąpił błąd podczas dodawania produktu</string>
+    <string name="product_quantity_parametrized">Ilość produktu: %1$s</string>
+    <string name="product_price_parametrized">Cena produku: %1$s</string>
+</resources>
